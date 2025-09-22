@@ -1,0 +1,38 @@
+"Phrases"
+{
+	"Extract_Prefix"
+	{
+		"chi"		"[撤离]"
+	}
+
+	"Extraction_Begin_Print"
+	{
+		"#format"		"{1:t}"
+		"chi"		"{1} 撤离 开始"
+	}
+
+	"Player_Extracted_Print"
+	{
+		"#format"		"{1:t},{2:s}"
+		"chi"		"{1} {2} 已撤离"
+	}
+
+	"Extraction_Expire_Print"
+	{
+		"#format"		"{1:t}"
+		"chi"		"{1} 撤离 超时"
+	}
+
+	"Extraction_Complete_Print"
+	{
+		"#format"		"{1:t}"
+		"chi"		"{1} 撤离 结束"
+	}
+
+	"Extraction_Time_Print"
+	{
+		"#format"		"{1:t},{2:d},{3:f}"
+		"chi"		"{1} {2} 号 出口 撤离 时间: {3}"
+	}
+
+}
