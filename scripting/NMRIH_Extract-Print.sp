@@ -6,9 +6,9 @@
 #pragma semicolon 1
 #pragma newdecls required
 
-#include <sourcemod>
-#include <clients>
-#include <sdktools_functions>
+#include <sourcemod> //SOURCEMOD_VERSION
+#include <clients> //[MAX_NAME_LENGTH]
+#include <sdktools_functions> //FindEntityByClassname
 
 public Plugin myinfo =
 {
